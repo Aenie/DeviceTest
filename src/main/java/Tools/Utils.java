@@ -12,7 +12,7 @@ public class Utils {
         if (stringToRemove == null || stringToRemove.isEmpty()) {
             return null;
         }
-        return stringToRemove.replace("0", "");
+        return stringToRemove.replace(".00", ".");
     }
 
     /**

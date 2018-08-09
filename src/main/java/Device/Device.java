@@ -44,7 +44,7 @@ public class Device {
             return null;
         } else {
             String finalVersion = Utils.removeZero(version);
-            finalVersion = Utils.removeDualPoint(finalVersion);
+            finalVersion  = Utils.removeDualPoint(finalVersion);
             finalVersion = Utils.removeFinalPoint(finalVersion);
             return finalVersion;
         }

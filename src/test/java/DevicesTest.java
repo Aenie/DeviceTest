@@ -86,8 +86,8 @@ public class DevicesTest {
         assertNull ("Not supported null Object",
                 Utils.removeZero(null));
 
-        assertEquals("The value 0123000 and 123 is not equal",
-                Utils.removeZero("0123000"), "123");
+        assertEquals("The value 10.00 and 10 is not equal",
+                Utils.removeZero("10.00"), "10.");
     }
 
     @Test

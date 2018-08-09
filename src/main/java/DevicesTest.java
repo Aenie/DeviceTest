@@ -10,9 +10,11 @@ public class DevicesTest {
     public static void main(String[] args) {
         //Testing
         ArrayList<Device> test = new ArrayList<Device>();
-        test.add(new Device("a", "7.00"));
-        test.add(new Device("b", "7"));
-        test.add(new Device("c", "6.0.2"));
+        test.add(new Device("1", "7.00"));
+        test.add(new Device("2", "7.10.0"));
+        test.add(new Device("3", "6.4.2"));
+        test.add(new Device("4", "7.10.0.1"));
+        test.add(new Device("5", "7.100.0"));
         List<Device> res = ToolsVersion.sortVersion(test);
 
 
